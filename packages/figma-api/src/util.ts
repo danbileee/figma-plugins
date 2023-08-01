@@ -9,7 +9,7 @@ export function isBitmap(format?: string): format is BitmapFormat {
 }
 
 export function isSvg(format?: string): format is SVGFormat {
-  return "SVG" === format;
+  return format === "SVG";
 }
 
 /**

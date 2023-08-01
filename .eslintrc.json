@@ -14,5 +14,9 @@
     "ecmaVersion": 2020,
     "sourceType": "module"
   },
+  "rules": {
+    "no-undef": "off",
+    "prefer-destructuring": "off"
+  },
   "ignorePatterns": ["*.js", "*.json", "*.lock", "node_modules"]
 }
