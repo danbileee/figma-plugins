@@ -1,0 +1,18 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": ["@danbileee/eslint-config"],
+  "env": {
+    "es2020": true,
+    "node": true,
+    "browser": true
+  },
+  "parserOptions": {
+    "project": ["./packages/*/tsconfig.json"],
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "ignorePatterns": ["*.js", "*.json", "*.lock", "node_modules"]
+}

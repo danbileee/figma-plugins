@@ -1,0 +1,31 @@
+# Dependency directories
+node_modules/
+
+# temporary directories
+temp
+
+# cert directory
+cert
+
+# Logs
+logs
+*.log
+
+# Build output
+.next
+out
+dist
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variable files
+.env
+.env.local
+
+# Optional eslint cache
+.eslintcache
+
+.DS_Store
+.idea
+.vscode

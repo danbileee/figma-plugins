@@ -1,0 +1,9 @@
+{
+  "name": "figma-plugins-types",
+  "description": "shared types for plugins",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "eslint . --fix --ext .ts,.tsx"
+  }
+}
