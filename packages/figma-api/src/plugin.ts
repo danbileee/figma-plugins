@@ -3,7 +3,7 @@ import {
   PluginMessagePayload,
   SendImagePayload,
   isPluginPayload,
-} from "~/types/pluginMessage";
+} from "plugin-types";
 
 import { PluginCallbackFunc } from "./type";
 import { isBitmap, isSvg, securelyPostMessage } from "./util";

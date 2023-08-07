@@ -1,5 +1,5 @@
 {
-  "name": "figma-plugins-types",
+  "name": "plugin-types",
   "description": "shared types for plugins",
   "version": "1.0.0",
   "private": true,

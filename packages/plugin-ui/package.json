@@ -1,11 +1,11 @@
 {
-  "name": "figma-plugins",
-  "description": "figma plugins",
+  "name": "plugin-ui",
+  "description": "ui package for figma plugins",
   "version": "0.1.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev -p 80",
+    "dev": "next dev -p 4000",
     "dev:local": "node server/index.js",
     "start": "next start",
     "build": "next build",

@@ -1,8 +1,4 @@
-import {
-  BitmapFormat,
-  PluginMessagePayload,
-  SVGFormat,
-} from "~/types/pluginMessage";
+import { BitmapFormat, PluginMessagePayload, SVGFormat } from "plugin-types";
 
 export function isBitmap(format?: string): format is BitmapFormat {
   return ["JPG", "PNG"].includes(format);

@@ -1,4 +1,4 @@
-import { PluginMessagePayload } from "~/types/pluginMessage";
+import { PluginMessagePayload } from "plugin-types";
 
 const PLUGIN_ID = "";
 
